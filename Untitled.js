@@ -1,5 +1,16 @@
-var username = prompt("What is the capital of North Korea?");
-alert("Mission accomplished!! The world is safe for today!!");
+
+// function getName() {
+var username ="";
+while (username =="") {
+    username = prompt("What is the capital of North Korea?");
+  }
+  return username;
+}
+
+
+
+//var username = prompt("What is the capital of North Korea?");
+//alert("Mission accomplished!! The world is safe for today!!");
 
 var sampleNumber = "North Korea";
 console.log("Ask the user for the country responsible for hack");
