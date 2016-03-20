@@ -6,7 +6,8 @@ function askQuestion(question, answer){
   } else {
     alert("Sorry, wrong answer.");
     }
-    document.getElementById("guess").innerHTML += "<br>"+question+"-"+answer;
+    document.getElementById("guess").innerHTML += "<br>"+question+"-";
+    document.getElementById("guess").innerHTML+="<span class='answer'>"+answer+"</span>";      
 };
 askQuestion("What is the capital of North Korea?","Pyongyang");
 askQuestion("Which country has insterted a dangerous code into this computer?","North Korea");

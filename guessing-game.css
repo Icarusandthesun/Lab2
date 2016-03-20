@@ -1,4 +1,8 @@
-body { font-family:Georgia,;}
+body { font-family:Georgia,;
+
+		background-color: #808080
+
+}
 
 
 img	{
@@ -8,5 +12,10 @@ img	{
 	text-align: left;
 	padding: 5;
 	margin: 0px;
+}
+
+.answer {
+
+	color: red;
 }
 h { color: #ee3e80;}
